@@ -2,50 +2,48 @@
 Contributors:      webmandesign
 Donate link:       https://www.webmandesign.eu
 Author URI:        https://www.webmandesign.eu
-Plugin URI:        https://www.webmandesign.eu/portfolio/wc-theme-integration-wordpress-plugin/
+Plugin URI:        https://github.com/webmandesign/wc-a11y
 Requires at least: 5.2
 Tested up to:      5.8
-Stable tag:        1.3.4
+Stable tag:        1.0.0
 License:           GNU General Public License v3
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
-Tags:              webman, webman design, woocommerce, themes
+Tags:              webman, webman design, woocommerce, accessibility, a11y
 
-Provides deeper integration for WooCommerce in WebMan Design accessibility ready themes.
+Fixes accessibility issues in WooCommerce plugin templates.
 
 
 == Description ==
 
-Provides deeper integration for WooCommerce in WebMan Design accessibility ready themes. **Please note that this plugin does not work with other 3rd party themes!**
+This plugin fixes accessibility issues in WooCommerce plugin templates. You need to have WooCommerce plugin installed.
 
-The integration is provided for [WebMan design accessibility ready themes](https://www.webmandesign.eu/project-tag/accessibility-ready/) since Cindy theme.
+If you are not using WooCommerce plugin, do not install and use this plugin either.
+
+Specifically fixes issue https://github.com/woocommerce/woocommerce/issues/31210 with code from https://github.com/woocommerce/woocommerce/pull/31211
 
 
 == Installation ==
 
-1. Unzip the plugin download file and upload `wc-theme-integration` folder into the `/wp-content/plugins/` directory.
+1. Unzip the plugin download file and upload `wc-a11y` folder into the `/wp-content/plugins/` directory.
 2. Activate the plugin through the *"Plugins"* menu in WordPress.
-3. Plugin has no options, works immediately after activation. The plugin requires WooCommerce plugin and one of [WebMan design accessibility ready themes](https://www.webmandesign.eu/project-tag/accessibility-ready/) to be active.
+3. Plugin has no options, works immediately after activation. The plugin requires WooCommerce plugin to be active.
 
 
 == Frequently Asked Questions ==
 
 = It does not work? =
 
-I'm sorry, but this plugin was created for [WebMan design accessibility ready themes](https://www.webmandesign.eu/project-tag/accessibility-ready/). It does not work with other 3rd party themes.
+The plugin requires WooCommerce plugin to be active. When both plugins are active, this plugin works quietly behind the scenes and fixes the accessibility HTML code issues within WooCommerce template files.
 
-If you are using one of the compatible themes (all themes since Cindy), the plugin also requires WooCommerce plugin to be active.
-
-= Search returns only products. =
-
-This plugin replaces theme's default generic search form with WooCommerce products search form. If you would still like to use the default search form, disable the *"Replace theme search"* option in **Appearance → Customize → WooCommerce → Product Catalog**.
+If a specific template file is overridden with your theme (or some other plugin), then this plugin won't help and you need to fix the code in your theme.
 
 
 == Changelog ==
 
-Please see the [`changelog.md` file](https://github.com/webmandesign/wc-theme-integration/blob/master/changelog.md) for details.
+Please see the [`changelog.md` file](https://github.com/webmandesign/wc-a11y/blob/master/changelog.md) for details.
 
 
 == Upgrade Notice ==
 
-= 1.3.4 =
-Fixing password reset styles.
+= 1.0.0 =
+Initial release.
