@@ -19,7 +19,7 @@ This plugin fixes accessibility issues in WooCommerce plugin templates. You need
 
 If you are not using WooCommerce plugin, do not install and use this plugin either.
 
-Specifically fixes issue https://github.com/woocommerce/woocommerce/issues/31210 with code from https://github.com/woocommerce/woocommerce/pull/31211
+Specifically, fixes [issue reported on GitHub](https://github.com/woocommerce/woocommerce/issues/31210) with related [pull request code](https://github.com/woocommerce/woocommerce/pull/31211).
 
 
 == Installation ==
