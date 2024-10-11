@@ -38,6 +38,11 @@ The plugin requires WooCommerce plugin to be active. When both plugins are activ
 If a specific template file is overridden with your theme (or some other plugin), then this plugin won't help and you need to fix the code in your theme.
 
 
+== Screenshots ==
+
+1. No accessibility issues reported by accessibility evaluation tool for WooCommerce
+
+
 == Changelog ==
 
 Please see the [`changelog.md` file](https://github.com/webmandesign/wc-a11y/blob/master/changelog.md) for details.
